@@ -17,7 +17,7 @@ void show_long(long data) {
     show_bytes((byte_pointer) &data, sizeof(long));
 }
 
-void show_double(short data) {
+void show_double(double data) {
     show_bytes((byte_pointer) &data, sizeof(double));
 }
 
