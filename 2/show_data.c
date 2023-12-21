@@ -20,15 +20,3 @@ void show_long(long data) {
 void show_double(double data) {
     show_bytes((byte_pointer) &data, sizeof(double));
 }
-
-int main() 
-{
-    short i = 25;
-    long j = 1321403242343;
-    double k = 0.00004;
-
-    show_double(k);
-    show_short(i);
-    show_long(j);
-    return 0;
-}
